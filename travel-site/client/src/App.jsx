@@ -7,10 +7,9 @@ import Popular from "./components/Popular";
 import Discover from "./components/Discover";
 import Blog from "./components/Blog";
 import Gallery from "./components/Gallery";
-import Testimonials from "./components/Testimonials";
-import Newsletter from "./components/Newsletter";
-import FloatingCta from "./components/FloatingCta";
+
 import Footer from "./components/Footer";
+import FloatingContact from "./components/FloatingContact"; // <-- added
 
 function App() {
   return (
@@ -42,17 +41,10 @@ function App() {
           <Gallery />
         </div>
       </section>
-      <section className="py-12">
-        <div className="container mx-auto">
-          <Testimonials />
-        </div>
-      </section>
-      <section className="py-12">
-        <div className="container mx-auto">
-          <Newsletter />
-        </div>
-      </section>
-      <FloatingCta />
+     
+   
+    
+      <FloatingContact /> {/* <-- added here */}
       <Footer />
     </div>
   );

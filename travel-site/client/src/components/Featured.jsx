@@ -1,101 +1,260 @@
-import React, { useState } from "react";
-import { FaHotel, FaPlaneDeparture, FaCar, FaShip } from "react-icons/fa";
-import featured1 from "../assets/featured/featured1.jpg";
-import featured2 from "../assets/featured/featured2.jpg";
-import featured3 from "../assets/featured/featured3.jpg";
-import featured4 from "../assets/featured/featured4.jpg";
-import featured5 from "../assets/featured/featured5.jpg";
-import featured6 from "../assets/featured/featured6.jpg";
+import React from "react";
+import { motion } from "framer-motion";
+import { FaCheck, FaPassport, FaHotel, FaPlane, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
-export default function Featured() {
-  const [active, setActive] = useState("Hotel");
-
-  const Card = ({ packages, image, country, amount }) => {
-    return (
-      <div className="rounded-lg shadow-lg p-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
-        <div className="text-textColor p-2 rounded-md mb-2 text-center">
-          {packages} Packages
-        </div>
-        <img
-          src={image}
-          alt={`${country} travel`}
-          className="w-full h-64 object-cover object-center rounded-[20px]"
-          loading="lazy"
-        />
-        <div className="mt-2">
-          <h2 className="text-lg font-semibold">{country}</h2>
-          <p className="text-gray-600">Starting from ${amount}</p>
-        </div>
-      </div>
-    );
+const AboutSection = () => {
+  // Animation variants
+  const fadeUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut" }
+    }
   };
 
+  const fadeLeft = {
+    hidden: { opacity: 0, x: -40 },
+    visible: { 
+      opacity: 1, 
+      x: 0,
+      transition: { duration: 0.6, ease: "easeOut" }
+    }
+  };
+
+  const fadeRight = {
+    hidden: { opacity: 0, x: 40 },
+    visible: { 
+      opacity: 1, 
+      x: 0,
+      transition: { duration: 0.6, ease: "easeOut" }
+    }
+  };
+
+  const scaleUp = {
+    hidden: { scale: 0.95, opacity: 0 },
+    visible: {
+      scale: 1,
+      opacity: 1,
+      transition: { duration: 0.5 }
+    }
+  };
+
+  const features = [
+    {
+      icon: <FaCheck className="text-xl" />,
+      title: "Certified Packages",
+      description: "Government-approved Hajj & Umrah packages with expert guidance."
+    },
+    {
+      icon: <FaHotel className="text-xl" />,
+      title: "Premium Stays",
+      description: "Hotels within walking distance of Haram in Makkah & Madinah."
+    },
+    {
+      icon: <FaPlane className="text-xl" />,
+      title: "Seamless Travel",
+      description: "Flights, visas, transport - we handle everything."
+    },
+    {
+      icon: <FaPassport className="text-xl" />,
+      title: "Document Help",
+      description: "Assistance with passports, photos, and health certificates."
+    }
+  ];
+
   return (
-    <div className="container mx-auto px-4 py-8">
-      {/* Buttons to filter by type */}
-      <div className="flex justify-center space-x-4 mb-8">
-        {[
-          { label: "Hotel", icon: FaHotel },
-          { label: "Flight", icon: FaPlaneDeparture },
-          { label: "Car", icon: FaCar },
-          { label: "Ship", icon: FaShip },
-        ].map(({ label, icon: Icon }) => (
-          <button
-            key={label}
-            onClick={() => setActive(label)}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-full transition-colors ${
-              active === label
-                ? "bg-[#306366] text-white"
-                : "bg-gray-200 text-gray-800"
-            } hover:bg-[#306366] focus:outline-none focus:ring-2 focus:ring-[#306366]`}
+    <div className="bg-black py-16 px-4 sm:px-6 lg:px-8">
+      <motion.section 
+        className="max-w-7xl mx-auto"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ staggerChildren: 0.1 }}
+      >
+        {/* Header with animated underline */}
+        <motion.div variants={fadeUp} className="text-center mb-16">
+          <motion.h2 
+            className="text-3xl md:text-5xl font-bold text-white mb-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
           >
-            <Icon />
-            <span>{label}</span>
-          </button>
-        ))}
-      </div>
+            <span className="text-yellow-400">AL ZIYARAT</span> HAJJ & UMRAH
+          </motion.h2>
+          <motion.div
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="w-24 h-1 bg-yellow-400 mx-auto mb-8"
+          />
+          <motion.p 
+            className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
+            variants={fadeUp}
+          >
+            Your trusted partner for sacred journeys to Makkah and Madinah
+          </motion.p>
+        </motion.div>
 
-      {/* Form for search criteria */}
-      <div className="flex flex-wrap justify-between items-center space-y-4 md:space-y-0 mb-8">
-        {[
-          { label: "Your Destination", placeholder: "Spain" },
-          { label: "Check In", type: "date" },
-          { label: "Check Out", type: "date" },
-          { label: "Adult", placeholder: "2" },
-          { label: "Child", placeholder: "2" },
-        ].map(({ label, placeholder, type }, index) => (
-          <div key={index} className="flex items-center space-x-2">
-            <label className="text-base text-gray-700">{label}</label>
-            <input
-              type={type || "text"}
-              placeholder={placeholder}
-              className="border border-[#306366] rounded-md px-2 py-2 focus:outline-none focus:ring-2 focus:ring-[#306366]"
-              aria-label={label}
-            />
+        {/* Features Grid */}
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            {features.map((feature, index) => (
+              <motion.div 
+                key={index}
+                variants={fadeLeft}
+                custom={index}
+                whileHover={{ y: -5 }}
+                className="flex items-start bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-yellow-400 transition-all"
+              >
+                <motion.div 
+                  className="flex-shrink-0 bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mr-6 text-black"
+                  whileHover={{ rotate: 15 }}
+                >
+                  {feature.icon}
+                </motion.div>
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
+                  <p className="text-gray-400">{feature.description}</p>
+                </div>
+              </motion.div>
+            ))}
           </div>
-        ))}
-        <button className="bg-[#306366] text-white rounded-md px-4 py-2 hover:[#306366] focus:outline-none focus:ring-2 focus:ring-[#306366]">
-          Book Now
-        </button>
-      </div>
 
-      {/* Special Offers */}
-      <div className="text-center mb-8 py-12">
-        <h2 className="text-2xl font-semibold text-gray-800">Special Offers</h2>
-        <p className="text-4xl font-bold text-gray-900">
-          Don't miss out on our exclusive deals and discounts!
-        </p>
-      </div>
+          {/* Animated Image */}
+          <motion.div 
+            variants={fadeRight}
+            className="relative rounded-xl overflow-hidden shadow-2xl"
+            whileHover={{ scale: 1.02 }}
+          >
+            <img
+              src="/kaba2.jpg"
+              alt="Al Ziyarat Services"
+              className="w-full h-auto"
+            />
+            <motion.div 
+              className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent p-6 flex flex-col justify-end"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.6 }}
+            >
+              <h3 className="text-white text-2xl font-bold mb-2">Sacred Journey Experience</h3>
+              <p className="text-yellow-300">With our expert guidance and support</p>
+            </motion.div>
+          </motion.div>
+        </div>
 
-      {/* Cards displaying the travel packages */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 cursor-pointer">
-        <Card amount="2400" country="Italy" image={featured1} packages="2" />
-        <Card amount="980" country="Mexico" image={featured2} packages="4" />
-        <Card amount="1200" country="France" image={featured3} packages="3" />
-        <Card amount="500" country="Turkey" image={featured4} packages="3" />
-        <Card amount="800" country="India" image={featured5} packages="6" />
-        <Card amount="1999" country="Spain" image={featured6} packages="5" />
-      </div>
+        {/* Requirements Section */}
+        <motion.div 
+          variants={scaleUp}
+          className="mt-20 bg-gray-900 border border-yellow-400 rounded-xl p-8 shadow-lg"
+          whileHover={{ y: -5 }}
+        >
+          <motion.h3 
+            className="text-2xl font-bold text-white mb-6 flex items-center"
+            initial={{ x: -20 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring" }}
+          >
+            <FaPassport className="mr-3 text-yellow-400" />
+            DOCUMENTS REQUIRED
+          </motion.h3>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <motion.div
+              variants={fadeLeft}
+            >
+              <h4 className="font-bold text-yellow-400 mb-3">ESSENTIAL DOCUMENTS</h4>
+              <ul className="space-y-3">
+                <motion.li 
+                  className="flex items-start"
+                  whileHover={{ x: 5 }}
+                >
+                  <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
+                  <span className="text-gray-300">Valid Passport (6+ months validity)</span>
+                </motion.li>
+                <motion.li 
+                  className="flex items-start"
+                  whileHover={{ x: 5 }}
+                >
+                  <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
+                  <span className="text-gray-300">PAN Card copy</span>
+                </motion.li>
+                <motion.li 
+                  className="flex items-start"
+                  whileHover={{ x: 5 }}
+                >
+                  <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
+                  <span className="text-gray-300">2 passport photos (white background)</span>
+                </motion.li>
+              </ul>
+            </motion.div>
+            
+            <motion.div
+              variants={fadeRight}
+            >
+              <h4 className="font-bold text-yellow-400 mb-3">HEALTH REQUIREMENTS</h4>
+              <ul className="space-y-3">
+                <motion.li 
+                  className="flex items-start"
+                  whileHover={{ x: 5 }}
+                >
+                  <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
+                  <span className="text-gray-300">Vaccination certificate (15+ days old)</span>
+                </motion.li>
+                <motion.li 
+                  className="flex items-start"
+                  whileHover={{ x: 5 }}
+                >
+                  <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
+                  <span className="text-gray-300">COVID-19 vaccination proof</span>
+                </motion.li>
+              </ul>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* Contact Section */}
+        <motion.div 
+          variants={fadeUp}
+          className="mt-20 bg-gradient-to-r from-gray-900 to-black rounded-xl p-8 border border-gray-800 shadow-xl"
+          whileHover={{ scale: 1.01 }}
+        >
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+            >
+              <h3 className="text-2xl font-bold text-white mb-4">CONTACT US</h3>
+              <div className="space-y-3">
+                <p className="flex items-center text-gray-300">
+                  <FaPhoneAlt className="mr-3 text-yellow-400" />
+                  +91-789786820
+                </p>
+                <p className="flex items-start text-gray-300">
+                  <FaMapMarkerAlt className="mr-3 mt-1 text-yellow-400 flex-shrink-0" />
+                  UGF-3, Royal Grand Complex, Near Khurram Nagar Chauraha, Lucknow - 226022
+                </p>
+              </div>
+            </motion.div>
+            
+            <motion.button 
+              className="bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-4 px-8 rounded-full whitespace-nowrap shadow-lg"
+              whileHover={{ 
+                scale: 1.05,
+                boxShadow: "0 5px 15px rgba(234, 179, 8, 0.4)"
+              }}
+              whileTap={{ scale: 0.95 }}
+            >
+              GET YOUR PACKAGE NOW
+            </motion.button>
+          </div>
+        </motion.div>
+      </motion.section>
     </div>
   );
-}
+};
+
+export default AboutSection;

@@ -1,39 +1,86 @@
-import React from "react";
-import { Link } from "react-scroll";
-import { FaArrowRight } from "react-icons/fa";
-import heroImage from "../assets/hero/hero.jpg";
+import React, { useRef } from 'react';
+import { motion } from 'framer-motion';
+import { FaKaaba, FaMosque } from 'react-icons/fa';
 
-const Hero = () => {
+const SimpleUmrahHero = () => {
+  const videoRef = useRef(null);
+
+  // Faster animation variants
+  const container = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.3
+      }
+    }
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: { duration: 0.5 }
+    }
+  };
+
   return (
-    <section
-      id="home"
-      className="h-[600px] flex flex-col justify-center items-center text-center text-textColor bg-cover bg-center rounded-[25px] mx-8"
-      style={{ backgroundImage: `url(${heroImage})` }}
-    >
-      {/* Hero Content */}
-      <div className="z-20 px-4 md:px-0">
-        <h1 className="text-backgroundColor text-4xl md:text-6xl font-bold mb-4 animate-fadeInDown font-black">
-          Experience the World, Your Way!
-        </h1>
-        <p className="text-lg md:text-xl text-backgroundColor mb-6 animate-fadeInUp font-semibold">
-          Discover exciting destinations, find amazing deals, and book your
-          dream vacation hassle-free.
-        </p>
-        <div className="flex justify-center">
-          <Link
-            to="discover"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="inline-flex items-center bg-backgroundColor text-textColor py-3 px-8 rounded-full font-semibold text-lg hover:bg-secondaryColor hover:text-textColor transition duration-300 animate-bounceInUp"
-          >
-            Explore
-            <FaArrowRight className="ml-2" />
-          </Link>
-        </div>
+    <section className="relative h-[70vh] md:h-[80vh] overflow-hidden">
+      {/* Background with overlay */}
+      <div className="absolute inset-0 bg-black">
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/video2.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
+
+      {/* Content - positioned at bottom with padding-bottom */}
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={container}
+        className="relative z-10 h-full flex flex-col justify-end items-center text-center pb-16 px-4"
+      >
+        <motion.div variants={item} className="mb-4 flex gap-3">
+          <FaKaaba className="text-yellow-400 text-2xl" />
+          <FaMosque className="text-yellow-400 text-2xl" />
+        </motion.div>
+
+        <motion.h1 
+          variants={item}
+          className="text-3xl md:text-4xl font-bold text-white mb-3"
+        >
+          <span className="text-yellow-400">Al-Ziyarat</span> Hajj & Umrah
+        </motion.h1>
+
+        <motion.p 
+          variants={item}
+          className="text-gray-200 max-w-md mb-6"
+        >
+          Spiritual journeys to Makkah & Madinah with premium accommodations
+        </motion.p>
+
+        <motion.div variants={item} className="mb-8">
+          <motion.button 
+            className="bg-yellow-400 hover:bg-yellow-300 text-black font-medium py-2 px-6 rounded-full"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Book Now
+          </motion.button>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };
 
-export default Hero;
+export default SimpleUmrahHero;

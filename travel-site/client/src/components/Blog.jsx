@@ -1,85 +1,138 @@
 import React from "react";
-import { FaComments, FaRegEye } from "react-icons/fa";
-import blog1 from "../assets/blog/blog1.jpg";
-import blog2 from "../assets/blog/blog2.jpg";
-import blog3 from "../assets/blog/blog3.jpeg";
+import {
+  FaBusAlt,
+  FaHotel,
+  FaHandsHelping,
+  FaUserFriends,
+  FaCalendarCheck,
+  FaPrayingHands,
+  FaQuran,
+  FaMapMarkedAlt,
+} from "react-icons/fa";
+import { motion } from "framer-motion";
 
-const blogPosts = [
+const features = [
   {
-    id: 1,
-    image: blog1,
-    title: "Foodie's Guide to Global Cuisine",
-    category: "Travel & Food",
-    comments: 45,
-    views: "24k+",
+    title: "Luxury Ziyarat Transport",
+    icon: <FaBusAlt className="w-5 h-5" />,
+    description: "Premium air-conditioned coaches with experienced drivers.",
   },
   {
-    id: 2,
-    image: blog2,
-    title: "How to Travel on a Budget?",
-    category: "Travel Tips",
-    comments: 32,
-    views: "18k+",
+    title: "5-Star Haram Hotels",
+    icon: <FaHotel className="w-5 h-5" />,
+    description: "Exclusive accommodations near Masjid al-Haram and Nabawi.",
   },
   {
-    id: 3,
-    image: blog3,
-    title: "The Ultimate Guide to Solo Travel",
-    category: "Adventure",
-    comments: 50,
-    views: "29k+",
+    title: "Scholarly Guided Tours",
+    icon: <FaQuran className="w-5 h-5" />,
+    description: "Ulama-led programs with spiritual insights.",
+  },
+  {
+    title: "Family Specialists",
+    icon: <FaUserFriends className="w-5 h-5" />,
+    description: "Custom packages for families and special needs.",
+  },
+  {
+    title: "24/7 Mutawwif Help",
+    icon: <FaHandsHelping className="w-5 h-5" />,
+    description: "Dedicated guides available round-the-clock.",
+  },
+  {
+    title: "Flexible Planning",
+    icon: <FaCalendarCheck className="w-5 h-5" />,
+    description: "Tailored schedules for your spiritual journey.",
+  },
+  {
+    title: "Ritual Guidance",
+    icon: <FaPrayingHands className="w-5 h-5" />,
+    description: "Step-by-step instruction from qualified scholars.",
+  },
+  {
+    title: "Exclusive Itineraries",
+    icon: <FaMapMarkedAlt className="w-5 h-5" />,
+    description: "Curated visits to historical Islamic sites.",
   },
 ];
 
-const BlogCard = ({ image, title, category, comments, views }) => (
-  <div className="shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-    <img className="w-full h-48 object-cover" src={image} alt={title} />
-    <div className="p-6">
-      <p className="text-sm text-textColor mb-2">{category}</p>
-      <h3 className="text-xl font-semibold text-textColor mb-4">{title}</h3>
-      <div className="flex justify-between items-center text-textColor">
-        <span className="flex items-center">
-          <FaComments className="mr-2" /> {comments} Comments
-        </span>
-        <span className="flex items-center">
-          <FaRegEye className="mr-2" /> {views} Views
-        </span>
-      </div>
-    </div>
-  </div>
-);
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      when: "beforeChildren",
+    },
+  },
+};
 
-const Blog = () => {
+const itemVariants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 10,
+    },
+  },
+};
+
+const ZeyaratFeatures = () => {
   return (
-    <section id="blog">
-      <div className="container mx-auto px-4">
-        {/* Section Title */}
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-semibold text-gray-800 animate-fadeInDown">
-            Our Latest Blogs
-          </h2>
-          <p className="text-4xl font-bold text-gray-900 animate-fadeInUp">
-            Discover inspiring stories, tips, and guides from our expert
-            travelers.
-          </p>
-        </div>
+    <section className="relative py-16 bg-gradient-to-b from-gray-900 to-black overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-48 h-48 bg-yellow-500 rounded-full opacity-5 blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-yellow-500 rounded-full opacity-5 blur-3xl"></div>
+      </div>
 
-        {/* Blog Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
-          {blogPosts.map((post) => (
-            <BlogCard
-              key={post.id}
-              image={post.image}
-              title={post.title}
-              category={post.category}
-              comments={post.comments}
-              views={post.views}
-            />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <motion.div
+          className="text-center mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-yellow-500 bg-yellow-500/10 rounded-full mb-3">
+            AL-ZIYARAT EXCELLENCE
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            Elevate Your <span className="text-yellow-500">Spiritual Journey</span>
+          </h2>
+          <p className="mt-3 text-gray-300 max-w-2xl mx-auto">
+            Our 25 years of expertise ensures every ritual is performed with ease and every moment is filled with barakah.
+          </p>
+        </motion.div>
+
+        {/* Features grid */}
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+        >
+          {features.map((feature, index) => (
+            <motion.div
+              key={index}
+              className="group p-6 bg-gray-800/30 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-yellow-500/30 transition-all duration-300"
+              variants={itemVariants}
+              whileHover={{ y: -5 }}
+            >
+              <div className="w-10 h-10 mb-4 rounded-lg bg-yellow-500/10 flex items-center justify-center text-yellow-500 group-hover:bg-yellow-500/20 transition-colors">
+                {feature.icon}
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
+              <p className="text-sm text-gray-300">{feature.description}</p>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
 };
 
-export default Blog;
+export default ZeyaratFeatures;
