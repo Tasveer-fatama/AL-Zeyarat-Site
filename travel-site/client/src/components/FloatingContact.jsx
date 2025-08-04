@@ -1,4 +1,3 @@
-// components/FloatingContact.jsx
 import React, { useState, useEffect } from "react";
 import { FaWhatsapp, FaPhoneAlt, FaTimes, FaCommentDots } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,6 +6,8 @@ const FloatingContact = () => {
   const [expanded, setExpanded] = useState(false);
   const [pulse, setPulse] = useState(true);
   const [visible, setVisible] = useState(true);
+  const phoneNumber = "917897786820"; // Your WhatsApp number without '+'
+  const formattedPhoneNumber = "+917897786820"; // For calling
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -49,7 +50,7 @@ const FloatingContact = () => {
             </div>
             <div className="p-4 space-y-3">
               <a
-                href="https://wa.me/919876543210"
+                href={`https://wa.me/${phoneNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-4 py-2 bg-yellow-50 hover:bg-yellow-100 rounded-lg transition border border-yellow-200"
@@ -57,16 +58,16 @@ const FloatingContact = () => {
                 <div className="bg-black p-2 rounded-full">
                   <FaWhatsapp className="text-yellow-400" />
                 </div>
-                <span className="text-gray-800">WhatsApp</span>
+                <span className="text-gray-800">WhatsApp: +91 7897786820</span>
               </a>
               <a
-                href="tel:+919876543210"
+                href={`tel:${formattedPhoneNumber}`}
                 className="flex items-center gap-3 px-4 py-2 bg-yellow-50 hover:bg-yellow-100 rounded-lg transition border border-yellow-200"
               >
                 <div className="bg-black p-2 rounded-full">
                   <FaPhoneAlt className="text-yellow-400" />
                 </div>
-                <span className="text-gray-800">Call Now</span>
+                <span className="text-gray-800">Call: +91 7897786820</span>
               </a>
             </div>
           </motion.div>

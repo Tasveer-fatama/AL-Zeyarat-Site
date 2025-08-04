@@ -7,44 +7,55 @@ import Popular from "./components/Popular";
 import Discover from "./components/Discover";
 import Blog from "./components/Blog";
 import Gallery from "./components/Gallery";
-
 import Footer from "./components/Footer";
-import FloatingContact from "./components/FloatingContact"; // <-- added
+import FloatingContact from "./components/FloatingContact";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <section className="py-12">
-        <div className="container mx-auto">
+      
+      {/* Home Section */}
+      <section id="home">
+        <Hero />
+      </section>
+      
+      {/* Featured Tours Section */}
+      <section id="featured" className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
           <Featured />
         </div>
       </section>
-      <section className="py-12">
-        <div className="container mx-auto">
+      
+      {/* Popular Packages Section */}
+      <section id="packages" className="py-12">
+        <div className="container mx-auto px-4">
           <Popular />
         </div>
       </section>
-      <section className="py-12">
-        <div className="container mx-auto">
+      
+      {/* Discover/Contact Section */}
+      <section id="discover" className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
           <Discover />
         </div>
       </section>
+      
+      {/* Blog Section */}
       <section className="py-12">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <Blog />
         </div>
       </section>
-      <section className="py-12">
-        <div className="container mx-auto">
+      
+      {/* Gallery Section */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
           <Gallery />
         </div>
       </section>
-     
-   
-    
-      <FloatingContact /> {/* <-- added here */}
+      
+      <FloatingContact />
       <Footer />
     </div>
   );
