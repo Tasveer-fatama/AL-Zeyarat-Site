@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import {  FaWhatsapp, FaPlane, FaCalendarAlt, FaHotel, FaRupeeSign, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp, FaPlane, FaCalendarAlt, FaHotel, FaRupeeSign, FaPhoneAlt } from "react-icons/fa";
 
 const UmrahPackages = () => {
   const [activeTab, setActiveTab] = useState("deluxe");
@@ -648,27 +648,42 @@ const UmrahPackages = () => {
     </div>
 
     {/* Contact Info */}
-    <motion.div 
-      className="mt-12 bg-gray-900 rounded-xl shadow-lg p-8 text-center border border-yellow-400"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.4 }}
-    >
-      <h3 className="text-xl font-bold text-white mb-4">Contact Us for More Information</h3>
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-        <a href="https://wa.me/917897786820" target="_blank" rel="noopener noreferrer" className="flex items-center text-yellow-400 hover:text-yellow-300">
-          <FaWhatsapp className="mr-2" />
-          <span>+91-7897786820</span>
-        </a>
-        <a href="tel:+917897786820" className="flex items-center text-yellow-400 hover:text-yellow-300">
-          <FaPhoneAlt className="mr-2" />
-          <span>+91-7897786820</span>
-        </a>
-        <p className="text-gray-400">
-          UGF-3 Royal Grand Complex, Near Khurram Nagar Chauraha, Lucknow-226022
-        </p>
-      </div>
-    </motion.div>
+   <motion.div 
+  className="mt-12 bg-gray-900 rounded-xl shadow-lg p-8 text-center border border-yellow-400"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.4 }}
+>
+  <h3 className="text-xl font-bold text-white mb-4">Contact Us for More Information</h3>
+  <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 text-sm">
+    <a href="https://wa.me/917897786820" target="_blank" rel="noopener noreferrer" className="flex items-center text-yellow-400 hover:text-yellow-300">
+      <FaWhatsapp className="mr-2" />
+      <span>+91-7897786820</span>
+    </a>
+
+    <a href="tel:+917897786820" className="flex items-center text-yellow-400 hover:text-yellow-300">
+      <FaPhoneAlt className="mr-2" />
+      <span>+91-7897786820</span>
+    </a>
+
+    <a href="alziyarat0786@gmail.com" className="flex items-center text-yellow-400 hover:text-yellow-300">
+      <FaEnvelope className="mr-2" />
+      <span>alziyarat0786@gmail.com</span>
+    </a>
+
+    <a href="https://alziyarat.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-yellow-400 hover:text-yellow-300">
+      <svg className="w-4 h-4 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0zm0 1.8c1.6 0 2.9 2.7 3.2 6.2H6.8c.3-3.5 1.6-6.2 3.2-6.2zM1.8 10c0-.6.1-1.2.2-1.8h3.2c-.1.6-.2 1.2-.2 1.8s.1 1.2.2 1.8H2c-.1-.6-.2-1.2-.2-1.8zM10 18.2c-1.6 0-2.9-2.7-3.2-6.2h6.4c-.3 3.5-1.6 6.2-3.2 6.2zm3.6-8.2c0-.6-.1-1.2-.2-1.8h3.2c.1.6.2 1.2.2 1.8s-.1 1.2-.2 1.8h-3.2c.1-.6.2-1.2.2-1.8zM16.5 6h-2.6c-.3-2-.9-3.6-1.7-4.6 1.8.8 3.2 2.3 4.3 4.2zM7.8 1.4C6.9 2.4 6.3 4 6 6H3.5c1.1-1.9 2.6-3.4 4.3-4.6zM3.5 14H6c.3 2 .9 3.6 1.7 4.6-1.8-.8-3.2-2.3-4.3-4.6zM12.2 18.6c.9-1 1.5-2.6 1.8-4.6h2.6c-1.1 1.9-2.6 3.4-4.4 4.6z"/>
+      </svg>
+      <span>https://alziyarat.com</span>
+    </a>
+
+    <p className="text-gray-400 w-full sm:w-auto">
+      UGF-3 Royal Grand Complex, Near Khurram Nagar Chauraha, Lucknow-226022
+    </p>
+  </div>
+</motion.div>
+
   </div>
 </div>
   );
