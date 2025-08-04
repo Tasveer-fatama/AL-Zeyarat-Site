@@ -3,6 +3,8 @@ import {
   FaPhone,
   FaClock,
   FaMapMarkerAlt,
+  FaEnvelope,
+  FaGlobe
 } from "react-icons/fa";
 import logo from "/logo.jpeg";
 
@@ -20,10 +22,6 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Providing spiritual journeys to Makkah & Madinah with premium Saudi Airlines flights.
             </p>
-            
-            <div className="flex space-x-4 mt-2 text-white">
-           
-            </div>
           </div>
 
           {/* Services Section */}
@@ -67,7 +65,15 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-yellow-400" /> 
-                <a href="tel:+91789786820" className="hover:text-yellow-400">+91-7897786820</a>
+                <a href="tel:+917897786820" className="hover:text-yellow-400">+91-7897786820</a>
+              </li>
+              <li className="flex items-center">
+                <FaEnvelope className="mr-3 text-yellow-400" />
+                <a href="mailto:alziyarat0786@gmail.com" className="hover:text-yellow-400">alziyarat0786@gmail.com</a>
+              </li>
+              <li className="flex items-center">
+                <FaGlobe className="mr-3 text-yellow-400" />
+                <a href="https://alziyarat.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">alziyarat.com</a>
               </li>
               <li className="flex items-center">
                 <FaClock className="mr-3 text-yellow-400" /> 

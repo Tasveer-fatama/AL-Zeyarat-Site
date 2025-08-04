@@ -64,7 +64,7 @@ const SimpleUmrahHero = () => {
           variants={item}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 md:mb-4"
         >
-          <span className="text-yellow-400">Al-Ziyarat</span> Hajj & Umrah 
+          <span className="text-yellow-400">Al-Ziyarat</span> Hajj & Umrah  Services 
         </motion.h1>
 
         <motion.p 

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaCheck, FaPassport, FaHotel, FaPlane, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaCheck, FaPassport, FaHotel, FaPlane, FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
 
 const AboutSection = () => {
   // Animation variants
@@ -80,7 +80,7 @@ const AboutSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <span className="text-yellow-400">AL ZIYARAT</span> HAJJ & UMRAH<br />
+            <span className="text-yellow-400">AL ZIYARAT</span> Hajj & Umrah  Services<br />
             <span className="text-xl md:text-2xl text-yellow-400">Lucknow, Uttar Pradesh</span>
           </motion.h2>
           <motion.div
@@ -232,11 +232,21 @@ const AboutSection = () => {
               <div className="space-y-3">
                 <p className="flex items-center text-gray-300">
                   <FaPhoneAlt className="mr-3 text-yellow-400" />
-                  +91-789786820
+                  +91-7897786820
+                </p>
+                <p className="flex items-center text-gray-300">
+                  <FaEnvelope className="mr-3 text-yellow-400" />
+                  alziyarat0786@gmail.com
                 </p>
                 <p className="flex items-start text-gray-300">
                   <FaMapMarkerAlt className="mr-3 mt-1 text-yellow-400 flex-shrink-0" />
                   UGF-3, Royal Grand Complex, Near Khurram Nagar Chauraha, Lucknow - 226022
+                </p>
+                <p className="flex items-center text-gray-300">
+                  <FaGlobe className="mr-3 text-yellow-400" />
+                  <a href="https://alziyarat.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+                    https://alziyarat.com
+                  </a>
                 </p>
               </div>
             </motion.div>

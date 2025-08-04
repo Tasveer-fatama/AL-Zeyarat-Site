@@ -41,80 +41,68 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full fixed top-0 z-50">
+      <header className="w-full fixed top-0 z-50 bg-black">
+        {/* Top Section */}
+        <div className={`max-w-7xl mx-auto px-4 flex items-center justify-between ${scrolled ? "py-1" : "py-2"}`}>
+          {/* Left Logo */}
+          <div className="w-12 h-12 overflow-hidden rounded-full shadow-lg">
+            <img
+              src="/logo.jpeg"
+              alt="Al-Ziyarat Logo"
+              className="object-cover w-full h-full"
+            />
+          </div>
 
-        {/* New Bismillah Section */}
-        <div className="bg-black py-2 text-center">
-          <h2 className="text-yellow-400 text-xl md:text-2xl font-bold tracking-wide transition duration-300 hover:scale-105 hover:text-yellow-300 hover:shadow-yellow-400 hover:shadow-md inline-block">
-            بِسْمِ ٱللّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
-          </h2>
-        </div>
-
-        {/* Top Bar */}
-        <div className={`bg-black text-white transition-all duration-300 ${scrolled ? "py-1" : "py-2"}`}>
-          <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            
-            {/* Left: Logo */}
-            <a 
-              href="#home" 
-              onClick={(e) => handleNavClick(e, '#home')}
-              className="flex items-center hover:scale-105 transition-transform duration-200"
-            >
-              <div className="w-20 h-20 overflow-hidden rounded-full shadow-lg">
-                <img
-                  src="/logo.jpeg"
-                  alt="Al-Ziyarat Logo"
-                  className="object-cover w-full h-full"
-                />
-              </div>
-            </a>
-
-            {/* Center: Contact Info */}
-            <div className="hidden md:flex gap-6 text-sm md:text-base">
+          {/* Center Content */}
+          <div className="flex-1 flex flex-col items-center px-2">
+            <h2 className="text-yellow-400 text-sm md:text-base font-bold tracking-wide whitespace-nowrap">
+              بِسْمِ ٱللّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
+            </h2>
+            <p className="text-white text-[9px] md:text-[11px] tracking-tight whitespace-nowrap">
+              PremiumQualityUmrahservicesproviderinLucknow
+            </p>
+            <div className="flex items-center gap-1 mt-1">
               <a
                 href="tel:+917897786820"
-                className="flex items-center gap-2 text-white hover:text-yellow-400"
+                className="text-white text-[10px] md:text-[12px] hover:text-yellow-400 flex items-center gap-1"
               >
-                <div className="p-2 bg-gray-800 rounded-full">
-                  <FaPhoneAlt className="text-yellow-400" />
-                </div>
-                <span>+91-7897786820</span>
+                <FaPhoneAlt className="text-yellow-400 text-xs" />
+                +91-7897786820
               </a>
+              <span className="text-white text-[10px] md:text-[12px]">|</span>
               <a
                 href="https://wa.me/917897786820"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white hover:text-yellow-400"
+                className="text-white text-[10px] md:text-[12px] hover:text-yellow-400 flex items-center gap-1"
               >
-                <div className="p-2 bg-gray-800 rounded-full">
-                  <FaWhatsapp className="text-yellow-400" />
-                </div>
-                <span>+91-7897786820</span>
+                <FaWhatsapp className="text-green-500 text-xs" />
+                +91-7897786820
               </a>
             </div>
+          </div>
 
-            {/* Right: Secondary Logo */}
-            <div className="w-20 h-20 overflow-hidden rounded-full shadow-lg">
-              <img
-                src="/logo2.jpeg"
-                alt="Right Icon"
-                className="object-cover w-full h-full"
-              />
-            </div>
+          {/* Right Logo */}
+          <div className="w-12 h-12 overflow-hidden rounded-full shadow-lg">
+            <img
+              src="/logo2.jpeg"
+              alt="Right Icon"
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
 
-        {/* Navigation Bar */}
-        <nav className={`bg-white shadow-lg transition-all duration-300 ${scrolled ? "py-2" : "py-3"}`}>
+        {/* Navigation */}
+        <nav className={`bg-white shadow-md ${scrolled ? "py-1" : "py-1"}`}>
           <div className="max-w-7xl mx-auto px-4">
-            {/* Desktop Navigation */}
+            {/* Desktop Nav */}
             <div className="hidden md:flex items-center justify-center space-x-1">
               {navLinks.map((link, index) => (
                 <a
                   key={index}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-800 hover:text-black text-sm font-medium rounded-lg transition-colors duration-200"
+                  className="flex items-center gap-1 px-2 py-1 text-gray-800 hover:text-black text-xs font-medium rounded transition-colors duration-200"
                 >
                   {link.icon}
                   <span className="font-semibold">{link.label}</span>
@@ -123,50 +111,43 @@ const Header = () => {
             </div>
 
             {/* Mobile Header */}
-            <div className="md:hidden flex items-center justify-between">
-              <div className="w-8" />
-              <h1 className="text-lg font-bold text-black text-center">AL-ZIYARAT</h1>
+            <div className="md:hidden flex items-center justify-between py-1">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-black text-xl p-2 rounded-full hover:bg-gray-100 transition-colors"
+                className="text-black text-sm p-1 rounded-full hover:bg-gray-100 transition-colors"
               >
                 {isMenuOpen ? <FaTimes /> : <FaBars />}
               </button>
+              <h1 className="text-xs font-bold text-black text-center mx-2">
+                AL-ZIYARAT HAJJ & UMRAH SERVICES
+              </h1>
+              <div className="w-6" />
             </div>
           </div>
 
           {/* Mobile Menu */}
           {isMenuOpen && (
-            <div className="md:hidden bg-white shadow-xl rounded-b-lg animate-fadeIn">
+            <div className="md:hidden bg-white shadow-xl rounded-b-lg">
               {navLinks.map((link, index) => (
                 <a
                   key={index}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className="flex items-center px-6 py-3 text-gray-800 hover:bg-yellow-50 transition-colors duration-150"
+                  className="flex items-center px-3 py-1.5 text-gray-800 hover:bg-yellow-50 transition-colors duration-150"
                 >
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2">
                     {link.icon}
-                    <span className="font-medium">{link.label}</span>
+                    <span className="text-sm font-medium">{link.label}</span>
                   </div>
                 </a>
               ))}
-              <div className="p-4 bg-gray-50 text-center">
-                <a
-                  href="#contact"
-                  onClick={(e) => handleNavClick(e, '#discover')}
-                  className="inline-block bg-black text-yellow-400 px-6 py-3 rounded-full text-sm font-medium shadow hover:bg-gray-900 transition"
-                >
-                  Contact Us
-                </a>
-              </div>
             </div>
           )}
         </nav>
       </header>
 
-      {/* Spacer for Fixed Header */}
-      <div className="h-[calc(80px+56px+40px)]"></div>
+      {/* Header Spacer */}
+      <div className="h-[90px] md:h-[85px]" />
     </>
   );
 };
