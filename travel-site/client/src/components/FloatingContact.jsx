@@ -1,99 +1,96 @@
 import React, { useState, useEffect } from "react";
-import { FaWhatsapp, FaPhoneAlt, FaTimes, FaCommentDots } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
-const FloatingContact = () => {
-  const [expanded, setExpanded] = useState(false);
+const FloatingWhatsApp = () => {
+  const [isHovered, setIsHovered] = useState(false);
   const [pulse, setPulse] = useState(true);
-  const [visible, setVisible] = useState(true);
-  const phoneNumber = "917897786820"; // Your WhatsApp number without '+'
-  const formattedPhoneNumber = "+917897786820"; // For calling
+  const phoneNumber = "917897786820"; // WhatsApp number without '+'
 
   useEffect(() => {
     const interval = setInterval(() => {
       setPulse(prev => !prev);
-    }, 2000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
-  const toggleMenu = () => {
-    setExpanded(!expanded);
-    setPulse(false);
-  };
-
-  const closeMenu = () => {
-    setExpanded(false);
-    setTimeout(() => setPulse(true), 1000);
-  };
-
-  if (!visible) return null;
-
   return (
-    <div className="fixed right-6 bottom-6 z-50 flex flex-col items-end gap-4">
-      <AnimatePresence>
-        {expanded && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.2 }}
-            className="bg-white rounded-xl shadow-xl overflow-hidden border border-yellow-300"
-          >
-            <div className="flex justify-between items-center p-3 bg-yellow-400">
-              <h3 className="text-black font-medium">Contact Us</h3>
-              <button 
-                onClick={closeMenu}
-                className="text-black hover:text-gray-800"
-              >
-                <FaTimes />
-              </button>
-            </div>
-            <div className="p-4 space-y-3">
-              <a
-                href={`https://wa.me/${phoneNumber}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-2 bg-yellow-50 hover:bg-yellow-100 rounded-lg transition border border-yellow-200"
-              >
-                <div className="bg-black p-2 rounded-full">
-                  <FaWhatsapp className="text-yellow-400" />
-                </div>
-                <span className="text-gray-800">WhatsApp: +91 7897786820</span>
-              </a>
-              <a
-                href={`tel:${formattedPhoneNumber}`}
-                className="flex items-center gap-3 px-4 py-2 bg-yellow-50 hover:bg-yellow-100 rounded-lg transition border border-yellow-200"
-              >
-                <div className="bg-black p-2 rounded-full">
-                  <FaPhoneAlt className="text-yellow-400" />
-                </div>
-                <span className="text-gray-800">Call: +91 7897786820</span>
-              </a>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <motion.button
+    <div className="fixed right-6 bottom-6 z-50">
+      <motion.a
+        href={`https://wa.me/${phoneNumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        onClick={toggleMenu}
-        className={`relative p-5 rounded-full shadow-xl ${expanded ? 'bg-yellow-500' : 'bg-black'} text-yellow-400`}
+        onHoverStart={() => setIsHovered(true)}
+        onHoverEnd={() => setIsHovered(false)}
+        className="relative block"
       >
-        <AnimatePresence>
-          {pulse && !expanded && (
-            <motion.span
-              initial={{ scale: 0.5, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.5, opacity: 0 }}
-              className="absolute inset-0 border-2 border-yellow-400 rounded-full animate-ping"
+        {/* 3D Effect Base */}
+        <motion.div
+          animate={{
+            rotate: isHovered ? [0, 5, -5, 0] : 0,
+            transition: { duration: 0.5 }
+          }}
+          className="relative"
+        >
+          {/* Main Button with 3D shadow effect */}
+          <div className="relative">
+            {/* Floating shadow */}
+            <motion.div
+              animate={{
+                scale: isHovered ? 1.2 : 1,
+                opacity: isHovered ? 0.8 : 0.6
+              }}
+              className="absolute inset-0 bg-yellow-600 rounded-full blur-md"
+              style={{ zIndex: -1 }}
             />
-          )}
-        </AnimatePresence>
-        <FaCommentDots size={24} />
-      </motion.button>
+            
+            {/* Main button - Yellow gradient with dark icon */}
+            <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center shadow-lg transform transition-all duration-300 hover:shadow-xl border-2 border-yellow-300">
+              <FaWhatsapp className="text-gray-900 text-3xl" />
+            </div>
+          </div>
+
+          {/* Animated rings - Yellow theme */}
+          <AnimatePresence>
+            {pulse && (
+              <>
+                <motion.div
+                  initial={{ scale: 0.5, opacity: 0 }}
+                  animate={{ scale: 1.3, opacity: 0.4 }}
+                  exit={{ scale: 1.5, opacity: 0 }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                  className="absolute inset-0 border-4 border-yellow-300 rounded-full"
+                  style={{ top: -4, left: -4, right: -4, bottom: -4 }}
+                />
+                <motion.div
+                  initial={{ scale: 0.5, opacity: 0 }}
+                  animate={{ scale: 1.6, opacity: 0.2 }}
+                  exit={{ scale: 2, opacity: 0 }}
+                  transition={{ duration: 2, repeat: Infinity, delay: 0.3 }}
+                  className="absolute inset-0 border-4 border-yellow-200 rounded-full"
+                  style={{ top: -8, left: -8, right: -8, bottom: -8 }}
+                />
+              </>
+            )}
+          </AnimatePresence>
+        </motion.div>
+
+        {/* Tooltip - Yellow themed */}
+        {isHovered && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-gray-900 font-medium text-sm px-3 py-1 rounded whitespace-nowrap shadow-md"
+          >
+            Chat with us!
+            <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-2 h-2 bg-yellow-500 rotate-45"></div>
+          </motion.div>
+        )}
+      </motion.a>
     </div>
   );
 };
 
-export default FloatingContact;
+export default FloatingWhatsApp;

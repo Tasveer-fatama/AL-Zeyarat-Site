@@ -14,7 +14,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -25,7 +25,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlinest",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -36,7 +36,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -47,7 +47,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -58,7 +58,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -69,7 +69,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -80,7 +80,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -91,7 +91,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -102,7 +102,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -113,7 +113,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -124,7 +124,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -135,7 +135,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -146,7 +146,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -157,7 +157,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -168,7 +168,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -179,7 +179,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -190,7 +190,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -201,7 +201,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -212,7 +212,7 @@ const UmrahPackages = () => {
       days: "14 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -223,7 +223,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -234,7 +234,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -245,7 +245,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -256,7 +256,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -267,7 +267,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -278,7 +278,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Direct Flight",
+      flight: "Saudi airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     }
