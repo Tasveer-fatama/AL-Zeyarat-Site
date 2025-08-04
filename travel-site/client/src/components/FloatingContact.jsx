@@ -36,23 +36,23 @@ const FloatingWhatsApp = () => {
         >
           {/* Main Button with 3D shadow effect */}
           <div className="relative">
-            {/* Floating shadow */}
+            {/* Floating shadow - Changed to WhatsApp green */}
             <motion.div
               animate={{
                 scale: isHovered ? 1.2 : 1,
                 opacity: isHovered ? 0.8 : 0.6
               }}
-              className="absolute inset-0 bg-yellow-600 rounded-full blur-md"
+              className="absolute inset-0 bg-green-600 rounded-full blur-md"
               style={{ zIndex: -1 }}
             />
             
-            {/* Main button - Yellow gradient with dark icon */}
-            <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center shadow-lg transform transition-all duration-300 hover:shadow-xl border-2 border-yellow-300">
-              <FaWhatsapp className="text-gray-900 text-3xl" />
+            {/* Main button - Changed to WhatsApp green gradient */}
+            <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center shadow-lg transform transition-all duration-300 hover:shadow-xl border-2 border-green-400">
+              <FaWhatsapp className="text-white text-3xl" />
             </div>
           </div>
 
-          {/* Animated rings - Yellow theme */}
+          {/* Animated rings - Changed to green theme */}
           <AnimatePresence>
             {pulse && (
               <>
@@ -61,7 +61,7 @@ const FloatingWhatsApp = () => {
                   animate={{ scale: 1.3, opacity: 0.4 }}
                   exit={{ scale: 1.5, opacity: 0 }}
                   transition={{ duration: 1.5, repeat: Infinity }}
-                  className="absolute inset-0 border-4 border-yellow-300 rounded-full"
+                  className="absolute inset-0 border-4 border-green-400 rounded-full"
                   style={{ top: -4, left: -4, right: -4, bottom: -4 }}
                 />
                 <motion.div
@@ -69,7 +69,7 @@ const FloatingWhatsApp = () => {
                   animate={{ scale: 1.6, opacity: 0.2 }}
                   exit={{ scale: 2, opacity: 0 }}
                   transition={{ duration: 2, repeat: Infinity, delay: 0.3 }}
-                  className="absolute inset-0 border-4 border-yellow-200 rounded-full"
+                  className="absolute inset-0 border-4 border-green-300 rounded-full"
                   style={{ top: -8, left: -8, right: -8, bottom: -8 }}
                 />
               </>
@@ -77,15 +77,15 @@ const FloatingWhatsApp = () => {
           </AnimatePresence>
         </motion.div>
 
-        {/* Tooltip - Yellow themed */}
+        {/* Tooltip - Changed to green theme */}
         {isHovered && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-gray-900 font-medium text-sm px-3 py-1 rounded whitespace-nowrap shadow-md"
+            className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-green-500 text-white font-medium text-sm px-3 py-1 rounded whitespace-nowrap shadow-md"
           >
             Chat with us!
-            <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-2 h-2 bg-yellow-500 rotate-45"></div>
+            <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-2 h-2 bg-green-500 rotate-45"></div>
           </motion.div>
         )}
       </motion.a>

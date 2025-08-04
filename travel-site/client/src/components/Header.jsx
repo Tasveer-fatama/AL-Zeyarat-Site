@@ -59,7 +59,7 @@ const Header = () => {
               بِسْمِ ٱللّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
             </h2>
             <p className="text-white text-[9px] md:text-[11px] tracking-tight whitespace-nowrap">
-              PremiumQualityUmrahservicesproviderinLucknow
+              Premium Quality Umrah services provider in Lucknow
             </p>
             <div className="flex items-center gap-1 mt-1">
               <a
