@@ -64,14 +64,21 @@ const SimpleUmrahHero = () => {
           variants={item}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 md:mb-4"
         >
-          <span className="text-yellow-400">Al-Ziyarat</span> Hajj & Umrah
+          <span className="text-yellow-400">Al-Ziyarat</span> Hajj & Umrah 
         </motion.h1>
+
+        <motion.p 
+          variants={item}
+          className="text-gray-200 max-w-md md:max-w-lg text-sm sm:text-base md:text-lg mb-2"
+        >
+          Lucknow, Uttar Pradesh, India
+        </motion.p>
 
         <motion.p 
           variants={item}
           className="text-gray-200 max-w-md md:max-w-lg text-sm sm:text-base md:text-lg mb-6 md:mb-8"
         >
-          Spiritual journeys to Makkah & Madinah with premium accommodations
+          Spiritual journeys to Makkah & Madinah with premium accommodations and Saudi Airlines flights
         </motion.p>
 
         <motion.div variants={item} className="mb-6 md:mb-8">

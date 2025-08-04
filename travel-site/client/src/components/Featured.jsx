@@ -59,7 +59,7 @@ const AboutSection = () => {
     {
       icon: <FaPassport className="text-xl" />,
       title: "Document Help",
-      description: "Assistance with passports, photos, and health certificates."
+      description: "Assistance with passports, photos, and required documents."
     }
   ];
 
@@ -80,7 +80,8 @@ const AboutSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <span className="text-yellow-400">AL ZIYARAT</span> HAJJ & UMRAH
+            <span className="text-yellow-400">AL ZIYARAT</span> HAJJ & UMRAH<br />
+            <span className="text-xl md:text-2xl text-yellow-400">Lucknow, Uttar Pradesh</span>
           </motion.h2>
           <motion.div
             initial={{ scaleX: 0 }}
@@ -93,7 +94,7 @@ const AboutSection = () => {
             className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
             variants={fadeUp}
           >
-            Your trusted partner for sacred journeys to Makkah and Madinah
+            Your trusted partner for sacred journeys to Makkah and Madinah with Saudi Airlines flights
           </motion.p>
         </motion.div>
 
@@ -194,21 +195,21 @@ const AboutSection = () => {
             <motion.div
               variants={fadeRight}
             >
-              <h4 className="font-bold text-yellow-400 mb-3">HEALTH REQUIREMENTS</h4>
+              <h4 className="font-bold text-yellow-400 mb-3">ADDITIONAL REQUIREMENTS</h4>
               <ul className="space-y-3">
                 <motion.li 
                   className="flex items-start"
                   whileHover={{ x: 5 }}
                 >
                   <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
-                  <span className="text-gray-300">Vaccination certificate (15+ days old)</span>
+                  <span className="text-gray-300">Confirmed flight tickets</span>
                 </motion.li>
                 <motion.li 
                   className="flex items-start"
                   whileHover={{ x: 5 }}
                 >
                   <FaCheck className="text-yellow-400 mt-1 mr-3 flex-shrink-0" />
-                  <span className="text-gray-300">COVID-19 vaccination proof</span>
+                  <span className="text-gray-300">Travel insurance</span>
                 </motion.li>
               </ul>
             </motion.div>

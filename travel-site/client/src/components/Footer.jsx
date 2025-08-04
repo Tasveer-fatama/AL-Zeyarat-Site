@@ -1,6 +1,5 @@
 import React from "react";
 import {
-
   FaPhone,
   FaClock,
   FaMapMarkerAlt,
@@ -17,9 +16,9 @@ const Footer = () => {
           <div>
             <img src={logo} alt="Al Ziyarat Logo" className="mb-4 w-32" />
             <h2 className="text-2xl font-bold text-yellow-400 mb-2">AL ZIYARAT</h2>
-            <h3 className="text-lg text-white mb-4">HAJ & UMRAH SERVICES</h3>
+            <h3 className="text-lg text-white mb-4">HAJJ & UMRAH SERVICES LUCKNOW UTTAR PRADESH</h3>
             <p className="text-gray-300 mb-4">
-              Providing spiritual journeys to Makkah & Madinah with premium accommodations and services.
+              Providing spiritual journeys to Makkah & Madinah with premium Saudi Airlines flights.
             </p>
             
             <div className="flex space-x-4 mt-2 text-white">
@@ -43,7 +42,6 @@ const Footer = () => {
               <li>• Valid Passport</li>
               <li>• Pan Card</li>
               <li>• 2 Passport Photos</li>
-              <li>• Vaccine Final Certificate (15 Days Old)</li>
             </ul>
           </div>
 
@@ -57,7 +55,7 @@ const Footer = () => {
             <h5 className="text-lg font-bold text-yellow-400 mt-6 mb-2">Package Includes</h5>
             <ul className="space-y-1 text-gray-300 text-sm">
               <li>• Ticket & Visa</li>
-              <li>• Buffet Meals</li>
+              <li>• Quality Food</li>
               <li>• Hotel Accommodation</li>
               <li>• Transportation</li>
             </ul>
@@ -90,7 +88,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-8 pt-4 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} AL ZIYARAT Haj & Umrah Services. All rights reserved.
+            &copy; {new Date().getFullYear()} AL ZIYARAT Hajj & Umrah Services. All rights reserved.
           </p>
         </div>
       </div>

@@ -15,8 +15,9 @@ const UmrahPackages = () => {
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 2,
       departure: "10-Aug-25",
@@ -25,8 +26,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 3,
       departure: "13-Aug-25",
@@ -35,8 +37,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 4,
       departure: "19-Aug-25",
@@ -45,8 +48,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 5,
       departure: "25-Aug-25",
@@ -55,8 +59,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,15,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 6,
       departure: "29-Aug-25",
@@ -65,8 +70,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,15,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 7,
       departure: "04-Sep-25",
@@ -75,7 +81,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
@@ -86,8 +92,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 9,
       departure: "14-Sep-25",
@@ -96,8 +103,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 10,
       departure: "18-Sep-25",
@@ -106,8 +114,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 11,
       departure: "22-Sep-25",
@@ -116,8 +125,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 12,
       departure: "28-Sep-25",
@@ -126,8 +136,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 13,
       departure: "03-Oct-25",
@@ -136,8 +147,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 14,
       departure: "09-Oct-25",
@@ -146,8 +158,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 15,
       departure: "13-Oct-25",
@@ -156,8 +169,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 16,
       departure: "19-Oct-25",
@@ -166,8 +180,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    },
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
+    },
     {
       id: 17,
       departure: "23-Oct-25",
@@ -176,7 +191,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
@@ -187,8 +202,8 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-     image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
       id: 19,
@@ -198,8 +213,8 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-     image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
       id: 20,
@@ -209,7 +224,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
@@ -220,8 +235,8 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-     image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
       id: 22,
@@ -231,8 +246,8 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-     image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
       id: 23,
@@ -242,7 +257,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
@@ -253,7 +268,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
     {
@@ -264,8 +279,8 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
       price: "₹1,10,000",
       status: "Available",
       flight: "Direct Flight",
-      hotel: "5-Star (550m from Haram)",
-     image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
+      hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
+      image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     }
   ],
  rabi: [
@@ -277,7 +292,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,15,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -288,7 +303,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,15,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -297,9 +312,9 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     arrival: "17-Sep-25",
     days: "17 Days",
     price: "₹1,15,000",
-    status: "Sold",
+    status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -310,7 +325,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -321,7 +336,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -332,7 +347,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -343,7 +358,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -354,7 +369,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -365,7 +380,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -376,7 +391,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -387,7 +402,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -398,7 +413,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -409,7 +424,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -420,7 +435,7 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   },
   {
@@ -431,12 +446,10 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
     price: "₹1,10,000",
     status: "Available",
     flight: "Direct Flight",
-    hotel: "5-Star (1200m from Haram)",
+    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
     image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
   }
 ]
-
-
 };
 
   return (
@@ -594,11 +607,11 @@ image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-400 mr-2">•</span>
-                  <span>5-Star hotel accommodation</span>
+                  <span>Premium hotel accommodation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-400 mr-2">•</span>
-                  <span>Buffet meals</span>
+                  <span>Quality food</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-400 mr-2">•</span>

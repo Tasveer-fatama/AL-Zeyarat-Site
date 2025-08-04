@@ -18,7 +18,7 @@ const features = [
     description: "Premium air-conditioned coaches with experienced drivers.",
   },
   {
-    title: "5-Star Haram Hotels",
+    title: "Premium Hotels Near Haram",
     icon: <FaHotel className="w-5 h-5" />,
     description: "Exclusive accommodations near Masjid al-Haram and Nabawi.",
   },

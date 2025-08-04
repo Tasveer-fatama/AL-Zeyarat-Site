@@ -35,7 +35,6 @@ const Header = () => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      // Update URL without reload
       window.history.pushState(null, null, href);
     }
   };
@@ -43,25 +42,35 @@ const Header = () => {
   return (
     <>
       <header className="w-full fixed top-0 z-50">
+
+        {/* New Bismillah Section */}
+        <div className="bg-black py-2 text-center">
+          <h2 className="text-yellow-400 text-xl md:text-2xl font-bold tracking-wide transition duration-300 hover:scale-105 hover:text-yellow-300 hover:shadow-yellow-400 hover:shadow-md inline-block">
+            بِسْمِ ٱللّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
+          </h2>
+        </div>
+
         {/* Top Bar */}
         <div className={`bg-black text-white transition-all duration-300 ${scrolled ? "py-1" : "py-2"}`}>
-          <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-center md:justify-between items-center">
-            {/* Logo */}
+          <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            
+            {/* Left: Logo */}
             <a 
               href="#home" 
               onClick={(e) => handleNavClick(e, '#home')}
-              className="mb-2 md:mb-0 flex items-center hover:scale-105 transition-transform duration-200"
+              className="flex items-center hover:scale-105 transition-transform duration-200"
             >
-              <img
-                src="/logo.jpeg"
-                alt="Al-Ziyarat Logo"
-                className="w-28 h-20 object-contain"
-                style={{ marginTop: "-12px", marginBottom: "-12px" }}
-              />
+              <div className="w-20 h-20 overflow-hidden rounded-full shadow-lg">
+                <img
+                  src="/logo.jpeg"
+                  alt="Al-Ziyarat Logo"
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </a>
 
-            {/* Contact Info */}
-            <div className="flex gap-4 md:gap-6 text-sm md:text-base">
+            {/* Center: Contact Info */}
+            <div className="hidden md:flex gap-6 text-sm md:text-base">
               <a
                 href="tel:+917897786820"
                 className="flex items-center gap-2 text-white hover:text-yellow-400"
@@ -82,6 +91,15 @@ const Header = () => {
                 </div>
                 <span>+91-7897786820</span>
               </a>
+            </div>
+
+            {/* Right: Secondary Logo */}
+            <div className="w-20 h-20 overflow-hidden rounded-full shadow-lg">
+              <img
+                src="/logo2.jpeg"
+                alt="Right Icon"
+                className="object-cover w-full h-full"
+              />
             </div>
           </div>
         </div>
@@ -148,7 +166,7 @@ const Header = () => {
       </header>
 
       {/* Spacer for Fixed Header */}
-      <div className="h-[calc(80px+56px)]"></div>
+      <div className="h-[calc(80px+56px+40px)]"></div>
     </>
   );
 };
