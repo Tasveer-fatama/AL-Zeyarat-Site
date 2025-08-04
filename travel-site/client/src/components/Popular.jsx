@@ -14,7 +14,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -25,7 +25,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlinest",
+      flight: "Saudi Airlinest",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -36,7 +36,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -47,7 +47,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -58,7 +58,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -69,7 +69,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -80,7 +80,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -91,7 +91,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -102,7 +102,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -113,7 +113,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -124,7 +124,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -135,7 +135,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -146,7 +146,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -157,7 +157,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -168,7 +168,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -179,7 +179,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"    
     },
@@ -190,7 +190,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -201,7 +201,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -212,7 +212,7 @@ const UmrahPackages = () => {
       days: "14 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -223,7 +223,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -234,7 +234,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -245,7 +245,7 @@ const UmrahPackages = () => {
       days: "17 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -256,7 +256,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -267,7 +267,7 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     },
@@ -278,178 +278,178 @@ const UmrahPackages = () => {
       days: "16 Days",
       price: "₹1,10,000",
       status: "Available",
-      flight: "Saudi airlines",
+      flight: "Saudi Airlines",
       hotel: "Premium Hotel in Makkah Shareef - 500m | Madina Shareef - 200m",
       image: "https://t3.ftcdn.net/jpg/09/30/47/86/360_F_930478659_ANNV5161gWZfYybGkc7FJFJ5O3VdP1Tt.jpg"
     }
   ],
- rabi: [
-  {
-    id: 3,
-    departure: "24-Aug-25",
-    arrival: "08-Sep-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 4,
-    departure: "29-Aug-25",
-    arrival: "13-Sep-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 5,
-    departure: "01-Sep-25",
-    arrival: "17-Sep-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 6,
-    departure: "07-Sep-25",
-    arrival: "22-Sep-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 7,
-    departure: "15-Sep-25",
-    arrival: "01-Oct-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 8,
-    departure: "23-Sep-25",
-    arrival: "08-Oct-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 9,
-    departure: "30-Sep-25",
-    arrival: "15-Oct-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 10,
-    departure: "06-Oct-25",
-    arrival: "22-Oct-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 11,
-    departure: "13-Oct-25",
-    arrival: "29-Oct-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 12,
-    departure: "20-Oct-25",
-    arrival: "05-Nov-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 13,
-    departure: "27-Oct-25",
-    arrival: "12-Nov-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 14,
-    departure: "03-Nov-25",
-    arrival: "19-Nov-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 15,
-    departure: "09-Nov-25",
-    arrival: "24-Nov-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 16,
-    departure: "17-Nov-25",
-    arrival: "03-Dec-25",
-    days: "17 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  },
-  {
-    id: 17,
-    departure: "23-Nov-25",
-    arrival: "08-Dec-25",
-    days: "16 Days",
-    price: "₹1,10,000",
-    status: "Available",
-    flight: "Direct Flight",
-    hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
-    image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
-  }
-]
+  rabi: [
+    {
+      id: 3,
+      departure: "24-Aug-25",
+      arrival: "08-Sep-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 4,
+      departure: "29-Aug-25",
+      arrival: "13-Sep-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 5,
+      departure: "01-Sep-25",
+      arrival: "17-Sep-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 6,
+      departure: "07-Sep-25",
+      arrival: "22-Sep-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 7,
+      departure: "15-Sep-25",
+      arrival: "01-Oct-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 8,
+      departure: "23-Sep-25",
+      arrival: "08-Oct-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 9,
+      departure: "30-Sep-25",
+      arrival: "15-Oct-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 10,
+      departure: "06-Oct-25",
+      arrival: "22-Oct-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 11,
+      departure: "13-Oct-25",
+      arrival: "29-Oct-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 12,
+      departure: "20-Oct-25",
+      arrival: "05-Nov-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 13,
+      departure: "27-Oct-25",
+      arrival: "12-Nov-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 14,
+      departure: "03-Nov-25",
+      arrival: "19-Nov-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 15,
+      departure: "09-Nov-25",
+      arrival: "24-Nov-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 16,
+      departure: "17-Nov-25",
+      arrival: "03-Dec-25",
+      days: "17 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    },
+    {
+      id: 17,
+      departure: "23-Nov-25",
+      arrival: "08-Dec-25",
+      days: "16 Days",
+      price: "₹1,10,000",
+      status: "Available",
+      flight: "Saudi Airlines",
+      hotel: "Premium Hotel in Makkah Shareef - 1200m | Madina Shareef - 500m",
+      image: "https://c4.wallpaperflare.com/wallpaper/858/910/402/mosques-great-mosque-of-mecca-arabia-kaaba-wallpaper-preview.jpg"
+    }
+  ]
 };
 
   return (
